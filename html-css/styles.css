@@ -1,14 +1,57 @@
-/* 
+body {
+margin: 0;
+padding: 0;
+}
 
-these are the colors used in the example
-***you can use them if you'd like or you can choose your own***
+.header-box {
+   width: 100vw;
+   height: 100px;
+   background-color: rgb(37, 37, 37);
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+}
+.main-title{
+   font-size: 45px;
+   color:rgb(0, 180, 180);
+   margin-left: 20px;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   margin-left: 45%;
+}
+.navtext{
+   color: white;
+   margin-left: 30px;
+}
+main{
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 50px
+}
 
-black - rgb(37, 37, 37)
-blue - rgb(42, 171, 226)
-shadow - rgba(102, 75, 75, .3)
-white - rgb(255, 255, 255) (default value) 
+.daddy{
+   display: flex;
+   flex-direction: row;
+}
 
-the font is called 'nunito' and can be found on google fonts
-***you can use it if you'd like or you can choose your own***
+.lorem-text{
+   width: 65%;
+   font-size: large;
+}
 
-*/
+.top-box{
+   float: right;
+   margin-right: 5vw;
+   width: 20%;
+   height: 25%;
+   border-color: black solid 5px;
+}
+
+.daddy-lorem{
+   display: flex;
+   flex-direction: column;
+}
